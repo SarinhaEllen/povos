@@ -30,7 +30,7 @@ function createInkDrops() {
     drop.style.animationDuration = 6 + Math.random() * 10 + 's';
     drop.style.animationDelay = Math.random() * 12 + 's';
 
-    const colors = ['#8b1a1a', '#a32b2b', '#cc4b2c', '#2d2d2d'];
+    const colors = ['#b40000', '#0f6607', '#eee019', '#2d2d2d'];
     drop.style.background = colors[Math.floor(Math.random() * colors.length)];
     container.appendChild(drop);
   }
